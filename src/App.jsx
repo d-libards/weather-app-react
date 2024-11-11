@@ -1,8 +1,10 @@
+import CoordinatesCard from './component/CoordinatesCard';
+
 function App() {
   return (
-    <>
-      <h1 className="text-center font-bold text-5xl">Hello World</h1>
-    </>
+    <div className="w-screen h-screen flex flex-col items-center bg-gradient-to-b from-blue-300 to-white">
+      <CoordinatesCard />
+    </div>
   );
 }
 
